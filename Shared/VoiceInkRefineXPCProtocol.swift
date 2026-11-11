@@ -1,7 +1,7 @@
 import Foundation
 
-let voiceInkRefineXPCServiceName = "com.prakashjoshipax.VoiceInk.RefineXPC"
-let voiceInkRefineXPCErrorDomain = "com.prakashjoshipax.VoiceInk.RefineXPC"
+let voiceInkRefineXPCServiceName = "com.klartextsysteme.Klartext.RefineXPC"
+let voiceInkRefineXPCErrorDomain = "com.klartextsysteme.Klartext.RefineXPC"
 
 struct VoiceInkRefinePrepareRequest: Codable, Sendable {
     let requestID: UUID

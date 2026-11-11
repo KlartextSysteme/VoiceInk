@@ -68,7 +68,7 @@ final class StreamingTranscriptionSession: TranscriptionSession {
     private var isCancelled = false
     private var startupTask: Task<Void, Never>?
     private var startupTaskID: UUID?
-    private let logger = Logger(subsystem: "com.prakashjoshipax.voiceink", category: "StreamingTranscriptionSession")
+    private let logger = Logger(subsystem: "com.klartextsysteme.klartext", category: "StreamingTranscriptionSession")
 
     init(streamingService: StreamingTranscriptionService, fallbackService: TranscriptionService) {
         self.streamingService = streamingService

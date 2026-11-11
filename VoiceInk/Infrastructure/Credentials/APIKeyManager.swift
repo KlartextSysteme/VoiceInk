@@ -5,7 +5,7 @@ import os
 final class APIKeyManager {
     static let shared = APIKeyManager()
 
-    private let logger = Logger(subsystem: "com.prakashjoshipax.voiceink", category: "APIKeyManager")
+    private let logger = Logger(subsystem: "com.klartextsysteme.klartext", category: "APIKeyManager")
     private let keychain = KeychainService.shared
     /// `hasAPIKey` runs once per cloud model inside SwiftUI bodies and on every recording start;
     /// each Keychain lookup is a synchronous securityd round trip on the main thread.

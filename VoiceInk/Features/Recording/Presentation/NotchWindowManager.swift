@@ -8,7 +8,7 @@ class NotchWindowManager {
     private var panel: NotchRecorderPanel?
 
     private let makeView: (NotchRecorderScreenMetrics) -> AnyView
-    private let logger = Logger(subsystem: "com.prakashjoshipax.voiceink", category: "NotchWindowManager")
+    private let logger = Logger(subsystem: "com.klartextsysteme.klartext", category: "NotchWindowManager")
 
     init(
         engine: VoiceInkEngine,

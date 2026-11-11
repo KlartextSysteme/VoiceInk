@@ -16,7 +16,7 @@ class NotchRecorderPanel: KeyablePanel {
     override var canBecomeKey: Bool { true }
     override var canBecomeMain: Bool { true }
 
-    private let logger = Logger(subsystem: "com.prakashjoshipax.voiceink", category: "NotchRecorderPanel")
+    private let logger = Logger(subsystem: "com.klartextsysteme.klartext", category: "NotchRecorderPanel")
     let screenMetrics = NotchRecorderScreenMetrics()
 
     init(contentRect: NSRect) {

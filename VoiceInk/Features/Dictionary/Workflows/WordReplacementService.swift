@@ -20,7 +20,7 @@ final class WordReplacementService {
     }
 
     private let logger = Logger(
-        subsystem: "com.prakashjoshipax.voiceink",
+        subsystem: "com.klartextsysteme.klartext",
         category: "WordReplacementService"
     )
     private var cachedRecords: [RuleRecord]?

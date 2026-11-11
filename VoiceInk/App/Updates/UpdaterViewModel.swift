@@ -13,7 +13,7 @@ final class UpdaterViewModel: NSObject, ObservableObject, SPUUpdaterDelegate {
     }
 
     private let defaults = UserDefaults.standard
-    private let logger = Logger(subsystem: "com.prakashjoshipax.voiceink", category: "updates")
+    private let logger = Logger(subsystem: "com.klartextsysteme.klartext", category: "updates")
     private var subscriptions = Set<AnyCancellable>()
     private lazy var updaterController = SPUStandardUpdaterController(
         startingUpdater: false,
@@ -75,7 +75,7 @@ final class UpdaterViewModel: NSObject, ObservableObject, SPUUpdaterDelegate {
         guard updateCheck == .updates || updater.automaticallyChecksForUpdates else {
             logger.notice("Update check blocked reason=automatic-checks-disabled")
             throw NSError(
-                domain: "com.prakashjoshipax.voiceink.updates",
+                domain: "com.klartextsysteme.klartext.updates",
                 code: 1,
                 userInfo: [NSLocalizedDescriptionKey: "Automatic update checks are disabled."]
             )

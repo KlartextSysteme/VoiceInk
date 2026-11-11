@@ -8,7 +8,7 @@ import os
 @MainActor
 final class ScreenSleepPreventer {
     static let shared = ScreenSleepPreventer()
-    private let logger = Logger(subsystem: "com.prakashjoshipax.voiceink", category: "ScreenSleepPreventer")
+    private let logger = Logger(subsystem: "com.klartextsysteme.klartext", category: "ScreenSleepPreventer")
     private var assertionID: IOPMAssertionID = 0
 
     private init() {}

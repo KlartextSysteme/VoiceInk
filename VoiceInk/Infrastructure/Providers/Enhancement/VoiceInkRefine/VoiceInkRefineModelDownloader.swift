@@ -408,7 +408,7 @@ final class VoiceInkRefineModelDownloader: @unchecked Sendable {
         configuration.waitsForConnectivity = true
 
         let delegateQueue = OperationQueue()
-        delegateQueue.name = "com.prakashjoshipax.voiceink.refine-download"
+        delegateQueue.name = "com.klartextsysteme.klartext.refine-download"
         delegateQueue.qualityOfService = .utility
         delegateQueue.maxConcurrentOperationCount = 1
 
